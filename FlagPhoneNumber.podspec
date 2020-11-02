@@ -34,5 +34,5 @@ Pod::Spec.new do |s|
 
 	#s.subspec 'libPhoneNumberiOS' do |ss|
 		#ss.source_files = 'Sources/libPhoneNumber/**/*.{m,h}'
-	end
+	#end
 end
