@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
 	s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
 	s.subspec 'libPhoneNumberiOS' do |ss|
-		ss.dependency = 'libPhoneNumber-iOS', '~> 0.8'
 		ss.source_files = 'Sources/libPhoneNumber/**/*.{m,h}'
 	end
 end
